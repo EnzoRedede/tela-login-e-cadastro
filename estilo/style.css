@@ -43,6 +43,7 @@ div.entradas {
 }
 
 input {
+    color: whitesmoke;
     padding: 10px;
     border-radius: 9px;
     font-family: 'Varela Round', sans-serif;
