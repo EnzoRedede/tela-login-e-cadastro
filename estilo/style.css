@@ -56,6 +56,9 @@ input {
     border-radius: 9px;
     cursor: pointer;
     font-family: 'Varela Round', sans-serif;
+}
+
+#botao_login:hover, #botao_cadastro:hover {
     box-shadow: 0px 1px 5px 0px var(--cor4);
 }
 
@@ -82,7 +85,6 @@ p {
     border-radius: 9px;
     padding: 8px 8px;
     margin-left: 10px;
-    box-shadow: 0px 1px 5px 0px var(--cor4);
 }
 
 /* EFEITO BOTÃO 3D */
@@ -104,4 +106,8 @@ p {
 /* BORDA VERDE */
 #gmail, #senha, #botao_login, #botao_cadastro {
     border: 2px solid var(--cor4);
+}
+
+footer {
+    text-align: center;
 }
