@@ -27,8 +27,8 @@ body {
     height: 400px;
     margin: 90px auto;
     background: rgba(255, 255, 255, 0.486);
-    backdrop-filter: blur(3px);
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.137);
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.137);
 }
 
 .titulo {
@@ -44,6 +44,7 @@ body {
 
 input {
     background-color: white;
+    color: gray;
     border: none;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
@@ -61,20 +62,24 @@ input {
     text-shadow: none;
 }
 
-#botao_login:hover, #botao_cadastro:hover, #botao_cadastrar-se:hover {
-    box-shadow: 0px 1px 5px 0px var(--cor4);
-}
-
 #botao_cadastro, #botao_cadastrar-se {
     color: black;
     background-color: white;
     text-decoration: none;
     font-size: 12px;
     padding: 8px 8px;
-    margin-left: 10px;
     border: none;
     font-family: 'Varela Round', sans-serif;
 }
+
+#botao_login:hover, #botao_cadastro:hover, #botao_cadastrar-se:hover {
+    background-color: #00CFFF;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 1px 5px 0px var(--cor4);
+}
+
+
 
 /* FOCUS */
 .email:focus, .senha:focus, #nome:focus {
