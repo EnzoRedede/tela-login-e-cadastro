@@ -7,12 +7,6 @@
     padding: 0;
 }
 
-:root {
-    --cor2: #212121;
-    --cor3: #333333;
-    --cor4: #57D36D;
-}
-
 body {
     background-image: url(/imagens/network-g23f3073fd_1280.png);
     background-attachment: fixed;
@@ -22,13 +16,11 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
-.box {
+form.box {
     width: 300px;
     height: 400px;
     margin: 90px auto;
     background-color: white;
-    /*backdrop-filter: blur(4px);
-    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.137);*/
 }
 
 .titulo {
@@ -68,13 +60,14 @@ input {
     text-decoration: none;
     font-size: 12px;
     padding: 8px 8px;
+    cursor: pointer;
     border: none;
     font-family: 'Varela Round', sans-serif;
 }
 
 /* HOVER */
 #botao_login:hover, #botao_cadastro:hover, #botao_cadastrar-se:hover {
-    
+    box-shadow: 0px 0px 3px 0px #00CFFF;
 }
 
 /* FOCUS */
